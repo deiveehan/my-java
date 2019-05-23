@@ -1,0 +1,1 @@
+print("Isnide a script file");

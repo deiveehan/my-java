@@ -16,5 +16,11 @@ public class DateClient {
         System.out.println("zonedDateTime = " + zonedDateTime);
         System.out.println("offsetDateTime = " + offsetDateTime);
 
+        Period period = Period.ofDays(6);
+        period = Period.ofMonths(6);
+        period = Period.between(LocalDate.now(), LocalDate.now().plusDays(60));
+
+        System.out.println("period = " + period);
+
     }
 }

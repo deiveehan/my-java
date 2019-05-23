@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4215583-ba1f-4822-8d26-6d2efeefe611" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/date/DateClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/date/DateClient.java" afterDir="false" />
-    </list>
+    <list default="true" id="b4215583-ba1f-4822-8d26-6d2efeefe611" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,13 +56,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/basics/ForEachClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="127">
               <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/streams/StreamClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#892#901#0" expanded="true" />
+                <element signature="e#1300#1309#0" expanded="true" />
+                <element signature="e#646#655#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,6 +112,7 @@
         <option value="$PROJECT_DIR$/src/nashorn/NashornClient.java" />
         <option value="$PROJECT_DIR$/src/date/DateClient.java" />
         <option value="$PROJECT_DIR$/src/basics/ForEachClient.java" />
+        <option value="$PROJECT_DIR$/src/streams/StreamClient.java" />
       </list>
     </option>
   </component>
@@ -130,7 +144,7 @@
               <item name="xplore-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="xplore-java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="basics" type="462c0819:PsiDirectoryNode" />
+              <item name="streams" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xplore-java" type="b2602c69:ProjectViewProjectNode" />
@@ -170,7 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ForEachClient">
+  <component name="RunManager" selected="Application.StreamClient">
     <configuration name="DateClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="date.DateClient" />
       <module name="xplore-java" />
@@ -223,8 +237,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.StreamClient" />
+      <module name="xplore-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamClient" />
         <item itemvalue="Application.ForEachClient" />
         <item itemvalue="Application.DateClient" />
         <item itemvalue="Application.NashornClient" />
@@ -321,10 +349,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/basics/ForEachClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="127">
           <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/streams/StreamClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#892#901#0" expanded="true" />
+            <element signature="e#1300#1309#0" expanded="true" />
+            <element signature="e#646#655#0" expanded="true" />
           </folding>
         </state>
       </provider>
